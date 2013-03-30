@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuildCompletionEvent.cs" />
+    <Compile Include="CheckinEvent.cs" />
     <Compile Include="EventServiceListen.cs" />
     <Compile Include="IEventServiceListen.cs" />
     <Compile Include="Program.cs" />
